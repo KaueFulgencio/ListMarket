@@ -1,6 +1,6 @@
 module go-list-market-api
 
-go 1.23.1
+go 1.23
 
 require (
 	github.com/bytedance/sonic v1.14.0 // indirect
