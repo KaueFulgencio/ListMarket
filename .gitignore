@@ -1,0 +1,38 @@
+# Logs e cache
+*.log
+*.tmp
+*.swp
+.cache/
+.DS_Store
+Thumbs.db
+
+# Ambientes e IDEs
+.vscode/
+.idea/
+*.iml
+
+# Dependências
+node_modules/
+vendor/
+packages/
+
+# Builds e distribuições
+dist/
+build/
+target/
+out/
+*.class
+*.exe
+*.dll
+*.so
+*.zip
+*.tar.gz
+
+# Variáveis de ambiente e credenciais
+.env
+.env.local
+.env.*.local
+
+# Testes e cobertura
+coverage/
+*.lcov

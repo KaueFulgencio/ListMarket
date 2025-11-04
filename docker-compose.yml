@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  go_db:
+    image: postgres:15
+    container_name: go_db
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: golang_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - go_db_data:/var/lib/postgresql/data
+    networks:
+      - go_network
